@@ -1,20 +1,13 @@
 public class Main {
 
     public static void main(String[] args) {
-        //primitive variables in java:
-        int a = 5;
-        char b = 'l';
-        long c = 400;
-        double d = 3.2;
-        //test comment
+        //create long legume construction
+        int legume_length = 16;
+        String legume = "=";
+        for (int x = 0; x < legume_length; x++) {
+            legume = legume + "=";
+        }
+        System.out.println("8" + legume + "D");
 
-        String Yoooo = "Valorant";
-        System.out.println(Yoooo.toUpperCase()); //prints string yoooo as Upper Case letter -> output: "VALORANT"
-        addExclamationPoint("deez"); //calls upon a "Method" we made listed below
     }
-
-    public static void addExclamationPoint(String s) {
-        System.out.println(s + "!");
-    }
-
 }
