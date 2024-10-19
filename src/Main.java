@@ -16,5 +16,12 @@ public class Main {
 
         char Grade = 'k';   //text speicher
 
+
+        //Literale
+        int var = +2; // + oder - kann bei int hinzugefügt werden, macht an sich nichts aber erhöht lesbarkeit
+        long long_var = -300L;  //bei größeren literalen vom long typ sollte ein großes L gesetzt werden
+
+
     }
+
 }
